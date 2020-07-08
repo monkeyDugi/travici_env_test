@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class Env {
 
-    @Value("${api.youtube}")
+    @Value("${api_youtube}")
     private String api;
 
 }
